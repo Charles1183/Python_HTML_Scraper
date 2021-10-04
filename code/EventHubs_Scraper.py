@@ -10,7 +10,7 @@ URL = 'https://www.eventhubs.com/tiers/tekken7/'
 page = requests.get(URL)
 file_path = 'C:\\Users\\green\\Desktop\\WorkSpaces\\Python\\EventHubs\\'
 test_file = 'TierList_Tekken7'
-file_fmt = '.json' #.txt
+file_fmt = '.html' #.txt
 soup = BeautifulSoup(page.content, 'html.parser')
 
 time_format = '%Y-%m-%d %I:%M %p'
