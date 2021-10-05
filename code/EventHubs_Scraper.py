@@ -6,6 +6,7 @@ from datetime import datetime
 import json
 import xmltojson
 
+
 URL = 'https://www.eventhubs.com/tiers/tekken7/'
 page = requests.get(URL)
 file_path = 'C:\\Users\\green\\Desktop\\WorkSpaces\\Python\\EventHubs\\'
